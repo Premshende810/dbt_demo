@@ -1,7 +1,4 @@
-WITH first_agents AS (
-SELECT
-*
-FROM
-testdb.public.agents
+WITH second_agents AS (
+SELECT * FROM testdb.public.agents
 )
-SELECT agent_code as code, agent_name as name from first_agents
+SELECT agent_code as Employee_id from second_agents
