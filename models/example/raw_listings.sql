@@ -2,7 +2,7 @@ WITH raw_listings AS (
 SELECT
 *
 FROM
-TESTDB.PUBLIC.RAW_LISTINGS
+TESTDB.newschema.RAW_LISTINGS
 )
 SELECT
 id AS listing_id,
